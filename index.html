@@ -1,1 +1,51 @@
-Hello Wolrd
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+    <title>Psychic Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Diplomata+SC|Playfair+Display|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/Style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="Game-Title">
+				<h1>Super Timey Wimey Space Stuff Psychic Game</h1>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="Game-Header">
+				<h2>Guess what letter I'm thinking of:</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-4" id="wins">
+				<p>Wins:</p>
+			</div>
+
+			<div class="col-xs-4" id="losses">
+				<p>Losses:</p>
+			</div>
+
+			<div class="col-xs-4" id="guessesLeft">
+				<p>Guesses left:</p>
+			</div>
+		</div>
+
+		<div class="row" id="guessedLetter">
+			<p>Your Guesses so far:</p>
+		</div>
+	</div>
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
